@@ -1,0 +1,169 @@
+Ampersand : Esperluette
+Angle brackets : Chevrons
+Anti-pattern : Anti-patron
+Applet : Appliquette
+ASLR : Disposition Stochastique de l’espace d’adressage
+Assignation : Affectation
+Back office : Arrière-guichet
+Back-end services : Services dorsaux
+Backdoor : Porte dérobée
+Backport : Rétroportage
+Backslash : Barre oblique inversée
+BBS (Bulletin Board System) : Babillard électronique
+Benchmark : Banc d’essai
+Big data : Mégadonnées
+Big-endian : Grand boutien
+Bloatware : Boufficiel
+Boot : Amorçage
+Bot : Robot
+Branch merging : Fusion de branches
+Browser : Navigateur
+Buffer : Tampon
+Buffer overflow : Dépassement de tampon
+Bug : Bogue
+Buzz : Ramdam
+Buzzword : Mot à la mode
+BYOD (Bring Your Own Device) : AVEC (Apportez Votre Equipement personnel de Communication)
+Byte : Octet
+Cache memory : Antémémoire
+Callback function : Fonction de rappel
+Capitalization : Majusculation
+Cascading Style Sheets (CSS) : Feuilles de style en cascade
+CDROM : Cédérom
+Checksum : Somme de contrôle
+Chipset : Jeu de puces
+Cloud computing : Infonuagique
+Cluster : Grappe
+Commit : Atome de code
+Computer illiteracy : Illectronisme
+Computer Science (CS) : Science informatique
+Cookie : Témoin de connexion
+Core dump : Vidage de mémoire
+Cryptocoin : Cybersou
+Cryptoparty : Chiffrofête
+Dangling pointer : Pointeur fou
+Database : Base de données
+Deadlock : Interblocage
+Debugger : Dévermineur
+Deep learning : Apprentissage profond
+Desktop : Ordinateur de bureau
+Device : Appareil
+Digital : Numérique
+Double word : Trente-deuzet
+Download : Téléchargement
+DRY (Don't Repeat Yourself) : NTRP (Ne Te Répète Pas)
+E-mail : Courriel
+Empowerment : Empouvoirement
+Endianness : Boutisme
+Favicon : Favorimage
+Firewall : Pare-feu
+Firmware : Micrologiciel
+Flag : Fanion
+Flame : Propos incendiaire
+Flood : Matraquage
+Fork : Scission
+FPGA (Field-Programmable Gate Array) : CIPP (Circuit Intégré Prédiffusé Programmable)
+Framework : Cadriciel
+Freeware : Gratuiciel
+Front office : Guichet
+Fuzzer : Générateur d’anomalies
+Fuzzing : Frelatage en masse
+GC : Ramasse-miettes, glaneur de cellule
+Glue code : Code ciment
+God object : Objet omniscient
+Hacked : Intrusé
+Hacker : Fouineur
+Hardening : Durcissement
+Hash : Condensat
+Hash table : Tableau à adressage dispersé
+Hashtag : Mot-croisillon
+Heap spray : Pulvérisation du tas
+Home row : Touche de repos
+Hub : Concentrateur
+Hyperlink : Hyperlien
+Instruction pipeline : Instruoduc
+Laptop : Ordinateur de giron
+Lazy evaluation : Évaluation paresseuse
+Lexing : Analyse lexicale
+Library : Bibliothèque
+Little-endian : Petit boutien
+Lolcat : Chatmusant
+Lurker : Fureteur
+Malware : Maliciel
+Man-in-the-middle attack : Attaque de l’homme du milieu
+Middleware : Intergiciel
+Monkey-in-the-middle attack : Attaque du singe intercepteur
+Namespace : Espace de noms
+Newsletter : Infolettre
+NIH (Not Invented Here) : PII (Pas Inventé Ici)
+Number sign : Croisillon
+Obfuscation : Noircissement de code
+Online chat : Clavardage
+Overclocking : Surcadençage
+Parsing : Analyse syntaxique
+Patch : Rustine logicielle
+Pharming : Devoiement
+Phishing : Hameçonnage
+Phishing attack : Attaque par filoutage
+Pipeline : Bitoduc
+Placeholder : Marque substitutive
+Plugin : Greffon
+Podcasting : Balladodiffusion
+Polling : Attente active
+Polyfill : Prothèse d'émulation
+Program counter : Compteur ordinal
+Proxy : Mandataire
+Pull-request : Fusiodemande
+Refactoring : Réusinage
+Repository : Dépôt
+Return oriented programming : Exploitation focalisée sur le retour
+Reverse proxy : Mandataire inverse
+Reverse-engineering : Ingénierie à rebours
+Rolling release : Publication continue
+ROM (Read-Only Memory) : Mémoire morte
+RTFM (Read The Fucking Manual) : LPDM (Lis le Putain De Manuel)
+Scale : Passe à l’échelle
+Scaling : Passage à l’échelle
+Selfie : Egoportrait
+Shareware : Partagiciel
+Shell : Interprète de commandes
+Shell code : Code encoquillé
+Slash : Barre oblique
+Smart grids : Grilles malignes
+Smartphone : Malinphone
+Smiley : Émoticône
+SoC (System-on-Chip) : Puce-système
+Spam : Polluriel, pourriel
+Spammer : Arroseur publicitaire
+Spinlock : Tourniquet
+Spyware : Espiogiciel
+Stack cookie : Biscuit de pile
+Stack overflow : Dépassement de pile
+Stand-up meeting : Réunion debout
+Switch : Commutateur
+Tablet : Planchette (tactile, digitale)
+Tag : Étiquette
+Thumbnail : Imagette
+TIL (Today I Learnt) : AJA (Aujourd’hui J’ai Appris)
+TL;DR (Too Long; Didn't Read) : TL;PL (Trop Long; Pas Lu)
+To deface : Défigurer
+To reverse : Détricoter
+To spoil : Divulgâcher
+Tuning : Bolidage
+Tutorial : Didacticiel
+Tweet : Gazouillis
+Underscore : Sous-tiret
+Upload : Téléversement
+URL : Adresse réticulaire
+USB key : Mémorette
+Verbose : Volubile
+Version control system : Logiciel de gestion de versions
+Volunteer computing : Calcul bénévole
+Walled garden : Jardin secret, communauté prison
+Watchdog : Chien de garde
+Web : Toile
+Web cache : Cache-toile
+Webcam : Cybercaméra
+Webmaster : Webmestre
+Wildcard : Joker
+Wrapper : Métascript
