@@ -45,9 +45,6 @@ Join #BFF on irc hackerzvoice
   !rule <id> : show rule <id>
   !getimg <text> : get image from google
   !joinchan <#chan> : join chan <#chan>
-  !quit <#chan> <reason> : quit chan
-  !say <to> <text> : say <text> to <to>
-  !nick <newnick> : change nick to <newnick>
   !setr(a/m) <h> <m> : change remaining time for end of work
   !getra(a/m) [<pseudo>] : get remaining time for <pseudo>
   !github : link to github
