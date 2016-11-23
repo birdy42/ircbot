@@ -65,25 +65,30 @@ class MyBot():
   def botserv(self):
     print "starting botserv..."
     s = self.s
-    while 1:
-      rBuffer = ''
-      c = 100000
-      while c != "\n":
-        c = s.recv(1)
-        rBuffer += c
+    try:
+
+      while 1:
+        rBuffer = ''
+        c = 100000
+        while c != "\n":
+          c = s.recv(1)
+          rBuffer += c
   
-      line = rBuffer[:-1] # Remove \n
-      if line != "":
-        self.log(line)
+        line = rBuffer[:-1] # Remove \n
+        if line != "":
+          self.log(line)
 
-      line=line.rstrip() # Remove \r
-      line=line.split(" ")
+        line=line.rstrip() # Remove \r
+        line=line.split(" ")
 
-      if(line[0]=='PING'):
-        s.send('PONG '+line[1]+'\n\r')
-      else:
-        if 'PRIVMSG' in line:
-          self.parsemsg(nm_to_n(line[0]), line[2], line[3:])
+        if(line[0]=='PING'):
+          s.send('PONG '+line[1]+'\n\r')
+        else:
+          if 'PRIVMSG' in line:
+            self.parsemsg(nm_to_n(line[0]), line[2], line[3:])
+    except socket.timeout:
+      s.close()
+      exit(0)
 
   def parsemsg(self, author, replyto, msg):
     message = " ".join(msg)[1:]

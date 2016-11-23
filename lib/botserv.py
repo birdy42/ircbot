@@ -13,6 +13,8 @@ from lib import remain
 from lib import utils
 from lib import bitly
 from lib import meme
+from lib import ctfs
+from lib import ctftime
 
 def serv(bot, author, replyto, message):
   try:
@@ -27,10 +29,13 @@ def serv(bot, author, replyto, message):
       bot.log( message + " from " + author)
       if command == '!pokemon': # Yorin
         bot.msg(replyto, "https://www.youtube.com/watch?v=q3p_dbcMBHg")
+      elif command == '!ctflist': # ghozt
+        my_str =""
+        for i in ctftime.get_ctf():
+          my_str += i + ";"
+        bot.msg(my_str)
       elif command == '!daniela': # ghozt
         bot.msg(replyto, "https://www.youtube.com/watch?v=tpgXbli1dDk")
-      #elif command == '!auto': # ghozt
-      #  quotes.startRandomQt(bot, serv)
       elif command == '!bitoduc': # ghozt
         bot.msg(replyto, bullshit.getBitoduc())
       elif command == '!doku': # Dazax
@@ -60,7 +65,7 @@ def serv(bot, author, replyto, message):
       elif command == '!getra': # ghozt
         bot.msg(replyto, remain.get(args[0], author, "remaina"))
       elif command == '!github': # birdy4
-        bot.msg(replyto, "http://github.com/birdy42/rootme_bot")
+        bot.msg(replyto, "http://github.com/birdy42/ircbot")
       elif command == '!whee': # Yorin
         bot.msg(replyto, "https://www.youtube.com/watch?v=-Q7wUbtT9gk")
       elif command == '!reload': # ghozt
@@ -74,6 +79,8 @@ def serv(bot, author, replyto, message):
         reload(quotes)
         reload(remain)
         reload(utils)
+        reload(ctfs)
+        reload(ctftime)
         bot.msg(replyto, "Reloaded")
       elif command == '!asv': # Yorin
         bot.msg(replyto, " 2 semaines, Bot, Botville. Alors, tentée par mon énorme epenis jeune demoiselle ?")
@@ -118,7 +125,6 @@ def serv(bot, author, replyto, message):
       elif command == '!roulette':
         bot.rouletteState = roulette.roulette(bot.rouletteState, author)
         bot.msg(replyto, bot.rouletteState[4])
-        bot.msg(replyto, " ".join(bot.channels["#bff"].users()))
       elif command == '!join':
         bot.rouletteState = roulette.join(bot.rouletteState, author)
         bot.msg(replyto, bot.rouletteState[4])
@@ -136,6 +142,12 @@ def serv(bot, author, replyto, message):
       elif command == '!kill':
         bot.rouletteState = roulette.kill(bot.rouletteState, args[0], author)
         bot.msg(replyto, bot.rouletteState[4])
+      elif command == '!addctf':
+        ctfs.add(text, author)
+      elif command == '!ctf':
+        bot.msg(replyto, ctfs.show(text, author))
+      elif command == '!ctfsearch':
+        bot.msg(replyto, ctfs.search(text, author))
       elif command == '!addquote':
         quotes.add(text, author)
       elif command == '!show':
