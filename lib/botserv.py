@@ -32,8 +32,12 @@ def serv(bot, author, replyto, message):
       elif command == '!ctflist': # ghozt
         my_str =""
         for i in ctftime.get_ctf():
-          my_str += i + ";"
-        bot.msg(my_str)
+          my_str += str(i) + ";"
+        bot.msg(replyto, my_str)
+      elif command == '!slowclap': # ??
+        bot.msg(replyto, " https://www.youtube.com/watch?v=TAryFIuRxmQ")
+      elif command == '!bff': # Yorin
+        bot.msg(replyto, " http://beers4flags.fr find us here")
       elif command == '!daniela': # ghozt
         bot.msg(replyto, "https://www.youtube.com/watch?v=tpgXbli1dDk")
       elif command == '!bitoduc': # ghozt
@@ -85,7 +89,7 @@ def serv(bot, author, replyto, message):
       elif command == '!asv': # Yorin
         bot.msg(replyto, " 2 semaines, Bot, Botville. Alors, tentée par mon énorme epenis jeune demoiselle ?")
       elif command == '!dazaxcuse': # ghozt
-        bot.msg(replyto, "jpeux pas il fait trop chaud")
+        bot.msg(replyto, bullshit.dazaxcuse())
       elif command == '!boo': # ghozt / Yorin
         if text == '':
           bot.msg(replyto, "https://www.youtube.com/watch?v=xxsfpQOFf1Q")
@@ -135,7 +139,7 @@ def serv(bot, author, replyto, message):
         bot.rouletteState = roulette.pull(bot.rouletteState, author)
         bot.msg(replyto, bot.rouletteState[4])
         if bot.rouletteState[5] != '':
-          bot.msg(replyto, bot.rouletteState[5]+ ": You lose! Get OUT!")
+          bot.msg(replyto, bot.rouletteState[5]+ ": You lose! YOU HAVE BEEN TERMINATED!")
           bot.rouletteState = [0,0,[],'','','']
       elif command == '!roulettestats':
         bot.msg(replyto, roulette.stats())
@@ -156,12 +160,14 @@ def serv(bot, author, replyto, message):
         bot.msg(replyto, quotes.random(text, author))
       elif command == '!quotesearch':
         bot.msg(replyto, quotes.search(text, author))
+      elif command == '!searchquote':
+        bot.msg(replyto, " Non " + author + " c'est dans l'autre sens ! #ghozttroll")
       elif command == '!quotefrom':
         bot.msg(replyto, quotes.qfrom(args[0], author))
       elif command == '!echo':
         bot.msg(replyto, text)
       elif command == '!help':
-        bot.msg(replyto, "!addquote !show !random !echo !getimg !leet !help !propose !setleet !rule !roulette")
+        bot.msg(replyto, " !addquote !show !random !echo !getimg !leet !help !propose !setleet !rule !roulette")
       elif command == '!propose':
         open("todolist", 'a').write(text+ "\n")
       elif command == '!setleet':

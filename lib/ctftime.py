@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*-coding:Utf-8 -*
+
+
 import urllib2
 import time
 import json

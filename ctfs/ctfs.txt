@@ -3,3 +3,26 @@ https://qiwictf.ru (beers4flags@gmail.com / fCSsdcvxsd690n5342hjnFgze) #CTF 17-1
 http://ctf.rc3.club/ | beers4flags@gmail.com | zaeaze56kjHYU1Sazz12cv
 http://ctf.rc3.club/ | beers4flags@gmail.com | zaeaze56kjHYU1Sazz12cv #CTF 19-21nov 2016
 https://juniors.ctf.org.ru | #CTF 25-27 nov 2016
+https://scoreboard.ctf.org.ru | token: 20f4f7bc316d812b1ff427e00ec3f091 | #CTF 25-27 nov 2016
+http://register.quals.seccon.jp | ID=2389122 / password=dfd9093dvUIdsZQ34cx1sqdz23CDf | #CTF 10-11/12
+http://ctf.sharif.edu/ctf7/login/ | beers4flags@gmail.com / xfdz423dqsdqs12ZQ34cx1sqdz2jk98f | #CTF 16-18/12
+https://33c3ctf.ccc.ac/; beers4flags@gmail.com / xfdz423dqsdqs12ZQ34cx1sqdz2jk98f #CTF 17-24/12
+https://3dsctf.org | beers4flags@gmail.com / xfdz423dqsdqs12ZQ34cx1sqdz2jk98f #CTF 17-24/12
+https://33c3ctf.ccc.ac | beers4flags@gmail.com / xfzae553483dqzDFQ34c1NGFvdz2jk98f #CTF 27-29/12
+https://felicity.iiit.ac.in/threads/breakin/ | beers4flags@gmail.com / cdscQSDAZE212CV56GHklsqdazesw323 #18-19/01 #CTF
+https://teaser.insomnihack.ch/ | beers4flags@gmail.com / Beers4flagsInsomniHack | #21-22/01 | #CTF
+https://ctf.oddcoder.com/ | Beers4Flags / fqsfZ334cx2_8kjiD0pMnvc32-sdeC | 03-06/02 | #CTF
+https://bitsctf.bits-quark.org | Beers4Flags / cvRE34gg_8dF324cXioS)mlQSw12QS | 04-05/02 | #CTF
+http://ctf.nullcon.net/ | Beers4Flags / sqdqze3XCZ2_uYTc89LMmcZ#XC23 | 10-12/02 | #CTF
+http://ctf.codegate.org | Beers4Flags / sqdqsdZ#XCz45jkgcCV00ml){SD32S | 10-11/02 | #CTF
+https://teaser.2017.volgactf.ru | Beers4Flags / sqSD233-EFppnvKL0@SDMmcZ#233 | 25/02 - 6H | #CTF
+https://ctf.xiomara.xyz | Team Beers4Flags / passphrase: sqs24545_Epv-!sd | 24-27/02 | #CTF
+https://ctf.neverlanctf.com | Beers4Flags / sqcqsdsqc347364_7@OPSDZAd2xczsza | 24-27/02 | #CTF
+http://pad.beers4flags.fr/p/Boston_Key_Party_2017 | Beers4flags / try_harder_drink_more_flag_or_not | 25-27/02 | #CTF
+http://ctf.bostonkey.party/ | Beers4flags / try_harder_drink_more_flag_or_not | 25-27/02 | #CTF
+https://ctf.pragyan.org | beers4flags@gmail.com / sqd78_DFGD90-dfV12CX43{dS5(]sdsd | 02-05/03 | #CTF
+https://www.easyctf.com | Beers4Flags / qsfF23123VBf_uiy66509PO-i_SD | 11-18/03 | #CTF
+https://ctf.0ops.net | beers4flags@gmail.com / qFDF8_xcK02KLM12{Fdf]C9_(JKXX3 | 18-20/03 | #CTF
+https://ctf.insecurity-insa.fr/ | Beers4Flags | flags4beers | 06-09/04 | #CTF
+https://quals.2017.volgactf.ru/ | Beers4Flags / qsdfDF36-fg_ixc0)sDF{SDxc1 | 24-26/03 | #CTF
+https://quals.nuitduhack.com/ | beers4flags@gmail.com / NDH43v3r_Bff_P0wAaaaa!!! | 01/04 | #CTF

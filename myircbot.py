@@ -22,6 +22,7 @@ NICK='BirdyBot'
 IDENT='BirdyBot'
 REALNAME='BirdyBot'
 CHANNELINIT='#BFF'
+CHANNELINIT2='#BFF_CTF'
 #-------------------------------------------------------------------------
 
 def nm_to_n(nickmask):
@@ -40,7 +41,10 @@ class MyBot():
   
   def __init__(self):
     self.s = self.connect()
-    quotes.startRandomQt(self)
+    try:
+      quotes.startRandomQt(self)
+    except:
+      print "bug"
     self.botserv()
 
   def connect(self):
@@ -50,9 +54,9 @@ class MyBot():
     s.send('USER '+IDENT+' '+HOST+' hackerzvoice '+REALNAME+'\n\r') 
     while 1:
       line=s.recv(4096)
-      print line
       if 'Welcome' in line:
         s.send('JOIN '+CHANNELINIT+'\n\r')
+        s.send('JOIN '+CHANNELINIT2+'\n\r')
         s.send('PRIVMSG NickServ identify david\n\r')
         return s
 
@@ -70,6 +74,7 @@ class MyBot():
       while 1:
         rBuffer = ''
         c = 100000
+
         while c != "\n":
           c = s.recv(1)
           rBuffer += c
@@ -88,6 +93,7 @@ class MyBot():
             self.parsemsg(nm_to_n(line[0]), line[2], line[3:])
     except socket.timeout:
       s.close()
+      print "Socket timed out..."
       exit(0)
 
   def parsemsg(self, author, replyto, msg):
@@ -96,9 +102,10 @@ class MyBot():
     self = botserv.serv(self, author, replyto, message)
 
   def log(self, msg):
-    fs = open("data.log", 'a')
-    fs.write(msg+"\n")
-    fs.close()
+    #fs = open("data.log", 'a')
+    #fs.write(msg+"\n")
+    #fs.close()
+    print msg
 
 # ---------"MAIN"-----------
 def worker(bot):
@@ -111,6 +118,11 @@ def reader(s):
 
 if __name__ == "__main__":
   print "Starting bot..."
-  bot = MyBot()
-
+  while 1:
+    try:
+      bot = MyBot()
+    except:
+      print "Bugged. Waiting 2 minutes to restart"
+      print( "Error " + str(sys.exc_info()[0]))
+      time.sleep(120)
 

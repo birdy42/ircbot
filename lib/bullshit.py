@@ -22,4 +22,8 @@ def getDevScuse():
 
 def getBitoduc():
   dico = open("bitoduc/dico.words", 'r').read()[:-1].split("\n")
-  return dico[randint(0,len(dico))]
+  return dico[randint(0,len(dico)-1)]
+
+def dazaxcuse():
+  dico = open("dazaxcuse/dico.words", 'r').read()[:-1].split("\n")
+  return dico[randint(0,len(dico)-1 )]
